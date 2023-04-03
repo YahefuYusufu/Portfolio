@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import "./components/Style/App.css";
+import React, { useState, useEffect } from "react"
+import "./components/Style/App.css"
 import {
   Home,
   Header,
@@ -11,20 +11,20 @@ import {
   Footer,
   ScrollUp,
   contextDarkMod,
-} from "./components";
+} from "./components"
 
 const App: React.FC = () => {
-  const [IsdarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [IsdarkMode, setIsDarkMode] = useState<boolean>(false)
 
   const toggleIsDarkMode = (): void => {
-    localStorage.setItem("isDarkMode", JSON.stringify(!IsdarkMode));
-    setIsDarkMode(!IsdarkMode);
-  };
+    localStorage.setItem("isDarkMode", JSON.stringify(!IsdarkMode))
+    setIsDarkMode(!IsdarkMode)
+  }
 
   useEffect(() => {
-    const isDark: boolean = localStorage.getItem("isDarkMode") === "true";
-    setIsDarkMode(isDark);
-  }, [IsdarkMode]);
+    const isDark: boolean = localStorage.getItem("isDarkMode") === "true"
+    setIsDarkMode(isDark)
+  }, [IsdarkMode])
 
   return (
     <contextDarkMod.Provider value={{ IsdarkMode, toggleIsDarkMode }}>
@@ -42,7 +42,7 @@ const App: React.FC = () => {
         <ScrollUp />
       </div>
     </contextDarkMod.Provider>
-  );
-};
+  )
+}
 
-export default App;
+export default App

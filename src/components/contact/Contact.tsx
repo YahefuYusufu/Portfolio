@@ -70,11 +70,9 @@ const Contact: React.FC = () => {
               <div className="contact__card">
                 <i className="bx bx-mail-send conact__card-icon"></i>
                 <h3 className="conact__card-title">Email</h3>
-                <span className="contact__card-data">
-                  Tijani.sylla1@gmail.com
-                </span>
+                <span className="contact__card-data">parguzatt@gmail.com</span>
                 <a
-                  href="mailto:tijani.sylla1@gmail.com"
+                  href="parguzatt@gmail.com"
                   target="_blank"
                   className="contact__button"
                   rel="noreferrer"
@@ -88,9 +86,9 @@ const Contact: React.FC = () => {
                 <div className="contact__card">
                   <i className="bx bxl-whatsapp conact__card-icon"></i>
                   <h3 className="conact__card-title">Whatsapp</h3>
-                  <span className="contact__card-data">312-690-0771</span>
+                  <span className="contact__card-data">076-922-3558</span>
                   <a
-                    href="https://api.whatsapp.com/send?phone=3126900771&text=Hello, more information!"
+                    href="https://api.whatsapp.com/send?phone=0769223558&text=Hello, more information!"
                     target="_blank"
                     className="contact__button"
                     rel="noreferrer"
@@ -105,9 +103,9 @@ const Contact: React.FC = () => {
                 <div className="contact__card">
                   <i className="bx bxl-messenger conact__card-icon"></i>
                   <h3 className="conact__card-title">Messenger</h3>
-                  <span className="contact__card-data">Tijani Sylla</span>
+                  <span className="contact__card-data">Yusufu Yahefu</span>
                   <a
-                    href="https://m.me/tijani.sylla/"
+                    href="https://m.me/Yusup Yacob.sylla/"
                     className="contact__button"
                     target="_blank"
                     rel="noreferrer"

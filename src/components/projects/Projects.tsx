@@ -1,12 +1,12 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import { Slide } from "react-awesome-reveal";
-import "swiper/css";
-import "swiper/css/pagination";
+import React from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Pagination } from "swiper"
+import { Slide } from "react-awesome-reveal"
+import "swiper/css"
+import "swiper/css/pagination"
 
-import "./Projects.css";
-import { data } from "../data/data";
+import "./Projects.css"
+import { data } from "../data/data"
 
 const Projects: React.FC = () => {
   return (
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                     <i className="uil uil-globe"></i>
                   </a>
                   <a
-                    href="https://github.com/tijanisylla"
+                    href="https://github.com/YahefuYusufu"
                     className="projects_social-icon"
                     target="_blank"
                     rel="noreferrer"
@@ -60,12 +60,12 @@ const Projects: React.FC = () => {
                   </a>
                 </div>
               </SwiperSlide>
-            );
+            )
           })}
         </Swiper>
       </Slide>
     </section>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

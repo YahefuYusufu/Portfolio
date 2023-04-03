@@ -79,7 +79,9 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualififaction__title">Computer Science</h3>
+                  <h3 className="qualififaction__title">
+                    Software Development
+                  </h3>
                   <span className="qualification__subtitle">
                     Sangmyung University - Seoul(south korea)
                   </span>

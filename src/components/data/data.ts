@@ -1,82 +1,83 @@
 // This file contains the data for the projects and navbarbar items.
-import { TypeMyData, TypeNavbar } from "./Models";
-import calculator from "../assets/calculator.png";
-import Snake from "../assets/Snake1.png";
-import Retro from "../assets/Draw.png";
-import Stranger from "../assets/Strange.png";
-import UserHub from "../assets/Userhub.png";
-import ArtCollector from "../assets/art.png";
-import Animation from "../assets/animation.png";
-import Fitness from "../assets/Fitness.png";
-import Task from "../assets/Task.png";
+import { TypeMyData, TypeNavbar } from "./Models"
+import calculator from "../assets/calculator.png"
+import Snake from "../assets/Snake1.png"
+import Retro from "../assets/Draw.png"
+import Stranger from "../assets/Strange.png"
+import UserHub from "../assets/Userhub.png"
+import ArtCollector from "../assets/art.png"
+import Animation from "../assets/animation.png"
+import Fitness from "../assets/Fitness.png"
+import Task from "../assets/Task.png"
+import inprogress from "../assets/inprogress.jpg"
 
 export const data: TypeMyData[] = [
   {
     id: 1,
-    title: "Calculator",
-    img_url: `${calculator}`,
-    link: "https://calculator-sylla.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 2,
-    title: "Snake",
-    img_url: `${Snake}`,
-    link: "https://snake-sylla.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 3,
-    title: "Retro-draw",
-    img_url: `${Retro}`,
-    link: "https://retro-draw-sylla.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 4,
-    title: "Stranger-Things",
-    img_url: `${Stranger}`,
-    link: "https://stranger-things1.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 5,
-    title: "UserHub",
-    img_url: `${UserHub}`,
-    link: "https://userhub-js.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
 
   {
     id: 6,
-    title: "Art-collector",
-    img_url: `${ArtCollector}`,
-    link: "https://art-collector.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 7,
-    title: "Animation",
-    img_url: `${Animation}`,
-    link: "https://animation-js-sylla.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
 
   {
     id: 8,
-    title: "Fitness",
-    img_url: `${Fitness}`,
-    link: "https://fitnesstrackerr.netlify.app",
-    gitHub: "https://github.com/tijanisylla",
+    title: "In Progress",
+    img_url: `${inprogress}`,
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
   {
     id: 9,
-    title: "Tasks Progress",
+    title: "In Progress",
     img_url: `${Task}`,
-    link: "https://main.d18m2yn7ohwgrq.amplifyapp.com/",
-    gitHub: "https://github.com/tijanisylla",
+    link: "https://github.com/YahefuYusufu",
+    gitHub: "https://github.com/YahefuYusufu",
   },
-];
+]
 
 export const listNavBar: TypeNavbar[] = [
   {
@@ -115,4 +116,4 @@ export const listNavBar: TypeNavbar[] = [
     icon: "uil uil-envelope",
     href: "contact",
   },
-];
+]
