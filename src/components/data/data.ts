@@ -10,14 +10,15 @@ import Animation from "../assets/animation.png"
 import Fitness from "../assets/Fitness.png"
 import Task from "../assets/Task.png"
 import inprogress from "../assets/inprogress.jpg"
+import quizApp from "../assets/quizApp.png"
 
 export const data: TypeMyData[] = [
   {
     id: 1,
-    title: "In Progress",
-    img_url: `${inprogress}`,
-    link: "https://github.com/YahefuYusufu",
-    gitHub: "https://github.com/YahefuYusufu",
+    title: "Quiz App_react-typ",
+    img_url: `${quizApp}`,
+    link: "https://quiz-react-typ.netlify.app/",
+    gitHub: "https://github.com/YahefuYusufu/react_ty_quizApp",
   },
   {
     id: 2,
